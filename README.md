@@ -1,54 +1,132 @@
+<br/>
 <p align="center">
-  <a href="https://www.gatsbyjs.com/?utm_source=starter&utm_medium=readme&utm_campaign=minimal-starter">
-    <img alt="Gatsby" src="https://www.gatsbyjs.com/Gatsby-Monogram.svg" width="60" />
+  <a href="https://github.com/radenadri/gatsby-tailwindcss-starter">
+    <img src="https://image.ibb.co/cJjPN7/gatsby_tailwind.png" alt="Logo">
   </a>
+
+  <h1 align="center">Gatsby + TailwindCSS Starter</h1>
+
+  <p align="center">
+    Gatsby with TailwindCSS pre-installed for your next awesome project.
+    <br/>
+    <br/>
+    <a href="https://github.com/radenadri/gatsby-tailwindcss-starter"><strong>Explore the docs »</strong></a>
+    <br/>
+    <br/>
+    <a href="https://gatsby-tailwindcss-starter.radenadri.xyz">View Demo</a>
+    .
+    <a href="https://github.com/radenadri/gatsby-tailwindcss-starter/issues">Report Bug</a>
+    .
+    <a href="https://github.com/radenadri/gatsby-tailwindcss-starter/issues">Request Feature</a>
+  </p>
 </p>
-<h1 align="center">
-  Gatsby minimal starter
-</h1>
 
-## 🚀 Quick start
+![Downloads](https://img.shields.io/github/downloads/radenadri/gatsby-tailwindcss-starter/total) ![Contributors](https://img.shields.io/github/contributors/radenadri/gatsby-tailwindcss-starter?color=dark-green) ![Issues](https://img.shields.io/github/issues/radenadri/gatsby-tailwindcss-starter) ![License](https://img.shields.io/github/license/radenadri/gatsby-tailwindcss-starter)
 
-1.  **Create a Gatsby site.**
+## Table Of Contents
 
-    Use the Gatsby CLI to create a new site, specifying the minimal starter.
+- [Table Of Contents](#table-of-contents)
+- [About The Project](#about-the-project)
+- [Built With](#built-with)
+- [Getting Started](#getting-started)
+  - [Prerequisites](#prerequisites)
+  - [Installation](#installation)
+- [Usage](#usage)
+- [Roadmap](#roadmap)
+- [Contributing](#contributing)
+  - [Creating A Pull Request](#creating-a-pull-request)
+- [License](#license)
+- [Authors](#authors)
+- [Acknowledgements](#acknowledgements)
 
-    ```shell
-    # create a new Gatsby site using the minimal starter
-    npm init gatsby
-    ```
+## About The Project
 
-2.  **Start developing.**
+![Screenshot](https://res.cloudinary.com/dvoj90vcy/image/upload/v1655106480/gatsby-tailwind-starter/homepage_f5wim3.jpg)
 
-    Navigate into your new site’s directory and start it up.
+Recently there are lots of great Gatsby projects that are built with TailwindCSS. This project is a Gatsby starter that is built with TailwindCSS.
+I made this one for myself but I also wanted to share it with others. So I made this project.
 
-    ```shell
-    cd my-gatsby-site/
-    npm run develop
-    ```
+Here's why:
 
-3.  **Open the code and start customizing!**
+* I wanted to learn how to use TailwindCSS with Gatsby.
+* You shouldn't be doing the same tasks over and over again like setting up TailwindCSS and creating a Gatsby starter.
+* Start coding ASAP :smile:
 
-    Your site is now running at http://localhost:8000!
+## Built With
 
-    Edit `src/pages/index.js` to see your site update in real-time!
+- [Gatsby](https://www.gatsbyjs.org/)
+- [TailwindCSS](https://tailwindcss.com/)
 
-4.  **Learn more**
+## Getting Started
 
-    - [Documentation](https://www.gatsbyjs.com/docs/?utm_source=starter&utm_medium=readme&utm_campaign=minimal-starter)
+Lets get started using this template.
 
-    - [Tutorials](https://www.gatsbyjs.com/tutorial/?utm_source=starter&utm_medium=readme&utm_campaign=minimal-starter)
+### Prerequisites
 
-    - [Guides](https://www.gatsbyjs.com/tutorial/?utm_source=starter&utm_medium=readme&utm_campaign=minimal-starter)
+Install NPM first
 
-    - [API Reference](https://www.gatsbyjs.com/docs/api-reference/?utm_source=starter&utm_medium=readme&utm_campaign=minimal-starter)
+```sh
+npm install npm@latest -g
+```
 
-    - [Plugin Library](https://www.gatsbyjs.com/plugins?utm_source=starter&utm_medium=readme&utm_campaign=minimal-starter)
+### Installation
 
-    - [Cheat Sheet](https://www.gatsbyjs.com/docs/cheat-sheet/?utm_source=starter&utm_medium=readme&utm_campaign=minimal-starter)
+Install the Gatsby CLI:
 
-## 🚀 Quick start (Gatsby Cloud)
+```sh
+npm install --global gatsby-cli
+```
 
-Deploy this starter with one click on [Gatsby Cloud](https://www.gatsbyjs.com/cloud/):
+## Usage
 
-[<img src="https://www.gatsbyjs.com/deploynow.svg" alt="Deploy to Gatsby Cloud">](https://www.gatsbyjs.com/dashboard/deploynow?url=https://github.com/gatsbyjs/gatsby-starter-minimal)
+Create a new Gatsby project using this starter:
+
+```sh
+gatsby new my-new-website https://github.com/radenadri/gatsby-tailwindcss-starter
+```
+
+Build a stylesheet from your Tailwind CSS config and run the project in development mode:
+
+```sh
+cd my-new-website
+npm run develop
+```
+
+Build your website for production:
+
+```sh
+npm run build
+```
+
+## Roadmap
+
+See the [open issues](https://github.com/radenadri/gatsby-tailwindcss-starter/issues) for a list of proposed features (and known issues).
+
+## Contributing
+
+Contributions are what make the open source community such an amazing place to be learn, inspire, and create. Any contributions you make are **greatly appreciated**.
+* If you have suggestions for adding or removing projects, feel free to [open an issue](https://github.com/radenadri/gatsby-tailwindcss-gstarter/issues/new) to discuss it, or directly create a pull request after you edit the *README.md* file with necessary changes.
+* Please make sure you check your spelling and grammar.
+* Create individual PR for each suggestion.
+
+### Creating A Pull Request
+
+1. Fork the Project
+2. Create your Feature Branch (`git checkout -b feature/AmazingFeature`)
+3. Commit your Changes (`git commit -m 'Add some AmazingFeature'`)
+4. Push to the Branch (`git push origin feature/AmazingFeature`)
+5. Open a Pull Request
+
+## License
+
+Distributed under the MIT License. See [LICENSE](https://github.com/radenadri/gatsby-tailwindcss-starter/blob/main/LICENSE.md) for more information.
+
+## Authors
+
+* **Adriana Eka Prayudha** - [https://radenadri.xyz](https://radenadri.xyz)
+
+## Acknowledgements
+
+* [Adriana Eka Prayudha](https://github.com/radenadri)
+* [Othneil Drew](https://github.com/othneildrew/Best-README-Template)
+* [ImgShields](https://shields.io)
